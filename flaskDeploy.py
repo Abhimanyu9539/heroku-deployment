@@ -41,7 +41,7 @@ def predict():
     # Convert request body back to JSON str
     area_sqft = reqParam['sqft']
     place = reqParam['place']
-    yearsOld = reqParam['yo']
+    yearsOld = reqParam['yearsOld']
     totalFloor = reqParam['tf']
     bhk = reqParam['bhk']
     
